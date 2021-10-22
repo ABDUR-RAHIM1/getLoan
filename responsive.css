@@ -1,0 +1,250 @@
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wrapper{
+	width:100%;
+	display:block;
+}	
+.header {
+    width: 100%;
+}
+.nav {
+    width: 100%;
+}	
+.left_side {
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 10%;
+    height: auto;
+}	
+.form {
+    width: 44%;
+    margin-top: 10%;
+    margin-right: 7%;
+}	
+.name {
+    width: 99%;
+    margin-bottom: 3%;
+    padding-left: 7%;
+    transition: 0.50s all ease;
+    background: white;
+}	
+.email{
+    width: 99%;
+    margin-bottom: 3%;
+    padding-left: 7%;
+    transition: 0.50s all ease;
+    background: white;
+}
+.number{
+    width: 99%;
+    margin-bottom: 3%;
+    padding-left: 7%;
+    transition: 0.50s all ease;
+    background: white;
+}	
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.wrapper{
+	width:100%;
+	display:block;
+}	
+.header {
+    display: none;
+}	
+.logo {
+    width: 100%;
+    text-align: center;
+	transition:1s all ease;
+	border-bottom:1px solid #5e5656;
+}
+.logo:hover{
+	background:gold;
+}
+.menu {
+    margin-right: 0;
+	padding: 10px;
+    width: 100%;
+}
+.menu ul{
+	width:100%;
+	margin-top:0px;
+	padding: 20px 0px;
+}	
+.menu ul li {
+    border-right: none;
+    width: 100%;
+    text-align: center;
+}
+.menu ul li a:hover{
+	background:#80c4a7;
+}	
+.call_nmbr:hover{
+	background:red;
+}	
+.left_side {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0px;
+    padding: 15px;
+}	
+.left_side h1{
+	color:#090a0b;
+	text-align:center;
+}
+.left_side p{
+	text-align:center;
+	
+}	
+.btn_1 {
+    margin-left: 34%;
+}
+.form {
+    width: 100%;
+    margin-right:0px;
+}	
+.footer{
+	width:100%;
+	text-align:center;
+}	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.wrapper{
+	width:100%;
+	display:block;
+}	
+.header {
+    display: none;
+}	
+.logo {
+    width: 100%;
+    text-align: center;
+	transition:1s all ease;
+	border-bottom:1px solid #5e5656;
+}
+.logo:hover{
+	background:gold;
+}
+.menu {
+    margin-right: 0;
+	padding: 10px;
+    width: 100%;
+}
+.menu ul{
+	width:100%;
+	margin-top:0px;
+	padding: 20px 0px;
+}	
+.menu ul li {
+    border-right: none;
+    width: 100%;
+    text-align: center;
+}
+.menu ul li a:hover{
+	background:#80c4a7;
+}	
+.call_nmbr:hover{
+	background:red;
+}	
+.left_side {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0px;
+    padding: 15px;
+}	
+.left_side h1{
+	color:#090a0b;
+	text-align:center;
+}
+.left_side p{
+	text-align:center;
+	
+}	
+.btn_1 {
+    margin-left: 41%;
+}
+.form {
+    width: 100%;
+    margin-right:0px;
+}	
+.footer{
+	width:100%;
+	text-align:center;
+}
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+	
+	
+}
